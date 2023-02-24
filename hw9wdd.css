@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: transparent;
+}
+.logo img{
+    background: none;
+    height: 50px;
+    margin-top: 5px;
+}
+nav ul{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-left: 800px;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+}
+nav ul li a:hover{
+    background-color: bisque;
+    border-radius: 10%;
+    font-size: 27px;
+}
+/* navber ends */
+.img1 img{
+    height: 510px;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+/* Service page starts */
+.service h1{
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+.llb{
+    display: flex;
+}
+button{
+    color: burlywood;
+    margin-left: 40%;
+    margin-top: 8px;
+    background-color: rgb(250, 237, 222);
+    border-radius: 8%;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.service{
+    height: 550px;
+    width: 410px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 10%;
+    box-shadow: -6px 6px 9px 11px rgba(0,0,0,0.1);
+}
+.service img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 8px;
+}
+.service h1{
+    font-family: 'Tilt Warp', cursive;
+}
+.service p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px 20px 5px 20px;
+    font-family: 'Lato', sans-serif;
+}
+/* Service part ends */
+.end{
+    height: 40px;
+    width: 100%;
+}
